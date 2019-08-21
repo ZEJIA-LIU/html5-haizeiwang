@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    background-color: 	#f0e68c;
+    height: 100vh;
+}
+
+head {
+    position: absolute;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+.body {
+    width: 100%;
+    height: 800px;
+    
+}
+
+.lufei {
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    background-color: yellow
+}
+
+.sp {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.lao {
+    width: 20%;
+    height: 400px;
+    background: blue;
+    position: absolute;
+    left: 20%;
+}
+
+.jide {
+    width: 20%;
+    height: 400px;
+    background: red;
+    position: absolute;
+    left: 40%;
+}
+
+.pu {
+    width: 20%;
+    height: 400px;
+    background: orange;
+    position: absolute;
+    left: 60%;
+}
+
+.jin {
+    width: 20%;
+    height: 400px;
+    background: gold;
+    position: absolute;
+    left: 80%;
+}
+
+.zr {
+    width: 20%;
+    height: 400px;
+    background: green;
+    position: absolute;
+    bottom: 0px;
+}
+.ni{
+    width: 20%;
+    height: 400px;
+    background: pink;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+}
+
+.ji{
+    width: 20%;
+    height: 400px;
+    background: #00bfff;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;  
+}
+.X{
+    width: 20%;
+    height: 400px;
+    background:	#778899;
+    position: absolute;
+    bottom: 0px;
+    left: 60%;  
+}
+
+.bei{
+    width: 20%;
+    height: 400px;
+    background:	#cd853f;
+    position: absolute;
+    bottom: 0px;
+    left: 80%;  
+}
