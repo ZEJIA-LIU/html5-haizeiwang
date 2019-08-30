@@ -1,119 +1,114 @@
-* {
-    padding: 0;
-    margin: 0;
+*{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
-
-.all{
-    background-color: 	#f0e68c;
-    height: 100vh;
+ol,ul{
+    list-style: none;
+}
+h1,h2{
+    font-weight: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold
+   
 }
 
-head {
-    position: absolute;
+.clearfix::after{content: '';
+    display: block;
+    clear: both;
 }
 
-main {
-    position: absolute;
-    width: 100%;
-    top: 50px;
+header{
+   
+    background: gray
+}
+.ul1{
+    float: left;
+    margin-left: 50px;   
 }
 
-h1 {
-    text-align: center;
-
-
+.li1{
+    margin: 10px
 }
 
-.body {
-    width: 100%;
-    height: 800px;
+.logo{
+    
+    float: left;
+    margin-left: 10px;
+}
+
+.daohang{color: white;
+    float: left;
+    padding:  0.5em;
+ height: 40px;
+ background: gray;
+}
+main{
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.x{
+    
+    margin: -20px;
+    width: 1080;
+}
+.renwu{
+    float: left;
+    height: 400px;
+    width: 250px;
+ 
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 
-.lufei {
-    width: 20%;
-    height: 400px;
-    position: absolute;
-    background-color: yellow
-}
 
 .sp {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
-
+.lufei{
+    background: yellow
+}
 .lao {
-    width: 20%;
-    height: 400px;
     background: blue;
-    position: absolute;
-    left: 20%;
 }
 
 .jide {
-    width: 20%;
-    height: 400px;
     background: red;
-    position: absolute;
-    left: 40%;
 }
 
 .pu {
-    width: 20%;
-    height: 400px;
     background: orange;
-    position: absolute;
-    left: 60%;
 }
 
 .jin {
-    width: 20%;
-    height: 400px;
     background: gold;
-    position: absolute;
-    left: 80%;
 }
 
 .zr {
-    width: 20%;
-    height: 400px;
     background: green;
-    position: absolute;
-    bottom: 0px;
 }
 .ni{
-    width: 20%;
-    height: 400px;
     background: pink;
-    position: absolute;
-    bottom: 0px;
-    left: 20%;
 }
 
 .ji{
-    width: 20%;
-    height: 400px;
     background: #00bfff;
-    position: absolute;
-    bottom: 0px;
-    left: 40%;  
 }
 .X{
-    width: 20%;
-    height: 400px;
-    background:	#778899;
-    position: absolute;
-    bottom: 0px;
-    left: 60%;  
+ background:	#778899;
+
 }
 
-.bei{
-    width: 20%;
-    height: 400px;
+.bei{   
     background:	#cd853f;
-    position: absolute;
-    bottom: 0px;
-    left: 80%;  
 }
